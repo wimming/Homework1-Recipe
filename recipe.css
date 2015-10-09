@@ -1,0 +1,86 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    /*width:1024px;*/
+    /*margin:0 auto;*/
+    padding:0 10px;
+	background-image:url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+    background-attachment:fixed;
+}
+
+li,p {
+    color:#404040;
+    font-size:11pt;
+    font-family:Georgia, Garamond;
+}
+
+a {
+    color:#A4A400;
+}
+
+body > .div1,.div2,.div3,.div4,.div5 {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h1,h2 {
+    margin-bottom:20px;
+    letter-spacing:0.2em;
+    color:#A4A400;
+    background-color:#F0F0F0;
+    font-family:"Century Gothic", Futura, Verdana;
+    text-decoration:underline;
+}
+
+h1 {
+    font-size:22pt;
+    font-weight:bold;
+    text-align:center;
+}
+
+h2 {
+    font-size:18pt;
+    font-weight:normal;
+}
+
+.div1 img {
+    margin-bottom: 20px;
+}
+
+body > .div2 li {
+	list-style:url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);
+}
+
+body > .div2 > ul,body > .div3 > ul {
+    margin-left:50px;
+}
+
+body > .div3 > ul {
+    list-style:none;
+    margin-left:30px;
+}
+
+body > .div3 > ul > li.sub-li {
+    list-style:url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif);
+    margin-left:100px;
+}
+
+body > .div4 .text-area {
+    background-color:#FFFFC8;
+    margin:10px 40px;
+}
+
+.div5 img {
+	width:100px;
+	height:35px;
+    margin-top:20px;
+}
+
+.div-line {
+    height:0;
+    border-bottom:1px solid #555555;
+}
+
